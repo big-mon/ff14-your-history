@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import NextNprogress from "nextjs-progressbar";
 import "tailwindcss/tailwind.css";
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -10,6 +11,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
       </Head>
 
+      <NextNprogress color="#4338ca" stopDelayMs={100} height={2} />
       <Component {...pageProps} />
     </>
   );
