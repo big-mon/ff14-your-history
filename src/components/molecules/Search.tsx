@@ -12,8 +12,8 @@ export const Search = () => {
   return (
     <>
       <div className="flex flex-wrap items-stretch border border-gray-400">
-        <SearchInput id={characterID} onChange={(e) => handleChange(e)} />
-        <SearchButton id={characterID} />
+        <SearchInput text={characterID} onChange={(e) => handleChange(e)} />
+        <SearchButton text={characterID} />
       </div>
     </>
   );
