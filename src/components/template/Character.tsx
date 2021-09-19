@@ -1,10 +1,12 @@
+import { Header } from "../organisms/Header";
 import { Footer } from "../organisms/Footer";
+import { CharacterData } from "../organisms/CharacterData";
 
 export const Template = () => {
   return (
     <>
-      <header className="mx-auto h-screen container">aaa</header>
-      <header className="mx-auto h-screen container">aaa</header>
+      <Header />
+      <CharacterData />
       <Footer isSticky={false} />
     </>
   );
