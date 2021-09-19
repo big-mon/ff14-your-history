@@ -18,7 +18,7 @@ export const SearchButton = (props: Props) => {
   const isDisabled = id.length == 0;
 
   return (
-    <Link href={`/${id}`}>
+    <Link href={`/character/${id}`}>
       <a>
         <button
           className="bg-gray-800 px-3 py-3 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
