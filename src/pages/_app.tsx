@@ -11,7 +11,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
       </Head>
 
-      <NextNprogress color="#4338ca" stopDelayMs={100} height={2} />
+      <NextNprogress color="rgb(139, 92, 246)" stopDelayMs={100} height={3} />
       <Component {...pageProps} />
     </>
   );

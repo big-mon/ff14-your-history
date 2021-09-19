@@ -5,7 +5,7 @@ import { HeroImage } from "../atoms/HeroImage";
 export const Hero = () => {
   return (
     <>
-      <main className="h-screen max-h-full flex items-center text-gray-100">
+      <main className="h-screen max-h-full flex items-center">
         <div className="w-full md:w-1/2 text-center">
           <div className="mx-auto px-6 w-full">
             <HeroSiteTitle />

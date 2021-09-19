@@ -9,11 +9,10 @@ export const Template = () => {
         <title>Dreams of Titania | FF14 Character History</title>
       </Head>
 
-      <div className="bg-gradient-to-br from-black to-gray-900 font-serif text-lg relative">
+      <div className="bg-gradient-to-br from-black to-gray-900 font-serif text-lg text-gray-100 relative">
         <Hero />
+        <Footer />
       </div>
-
-      <Footer />
     </>
   );
 };
