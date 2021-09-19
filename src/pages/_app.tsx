@@ -12,7 +12,10 @@ const App = ({ Component, pageProps }: AppProps) => {
       </Head>
 
       <NextNprogress color="rgb(139, 92, 246)" stopDelayMs={100} height={3} />
-      <Component {...pageProps} />
+
+      <div className="bg-fixed bg-gradient-to-br from-black to-gray-900 font-serif text-lg text-gray-100 relative">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 };
